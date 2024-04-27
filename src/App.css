@@ -1,0 +1,11 @@
+.bg-image{
+  background-image: url("../public/background/dark-woman.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-pattern-1{
+  background-image: url('./../public/background/pattern-01.jpg');
+  background-position: center;
+  background-size: cover;
+}
