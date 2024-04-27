@@ -30,7 +30,7 @@ Contributions to this project are welcome! If you'd like to contribute, please f
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Credits
-This project was created by [Your Name] and contributors.
+This project was created by James Mbogo and contributors.
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out to [Your Email] or create an issue on GitHub.
