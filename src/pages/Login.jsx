@@ -36,6 +36,7 @@ export default function Login() {
     setPassword(target.value);
     updateValidForm();
   }
+
   const handleSetEmail = ({ target }) => {
     setEmail(target.value);
     setValidEmail(validateEmail(email));
@@ -43,8 +44,13 @@ export default function Login() {
   };
 
   function updateValidForm(){
-    if(email != "" && validEmail && password != '' ){
+    console.log('updating valid form');
+    console.log('email: ',email);
+    console.log("password: ", password);
+    if(email != "" || password != '' ){
       setValidForm(true);
+    } else {
+      setValidForm(false);
     }
   }
 
@@ -124,11 +130,10 @@ export default function Login() {
                 type="submit"
                 variant="filled"
                 size="lg"
-                //color={validForm ? "blue" : "gray"}
                 color='blue'
                 loading={loading}
                 fullWidth
-                disabled={validForm}
+                // disabled={validForm}
               >
                 SIGN in{" "}
               </Button>

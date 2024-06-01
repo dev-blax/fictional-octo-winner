@@ -17,7 +17,7 @@ export function Sidebar() {
   const { hash, pathname, search } = location;
 
   return (
-    <Card className="h-[calc(100vh-2rem)] min-h-screen bg-gray-100 w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 rounded-none ">
+    <Card className=" min-h-screen sticky bg-gray-100 w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 rounded-none ">
       <div className="mb-2 p-4">
         <Link to={"/home"}>
           <Typography variant="h5" color="blue-gray">
